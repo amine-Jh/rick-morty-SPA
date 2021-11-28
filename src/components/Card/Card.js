@@ -29,7 +29,7 @@ const Card = ({results}) => {
   } else {
     return (
       <div
-        className={`${styles.badge} position-absolute badge bg-secondary`}
+        className={`${styles.badge} position-absolute badge bg-secondary `}
       >
         {status}
       </div>
